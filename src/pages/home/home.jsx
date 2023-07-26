@@ -30,7 +30,7 @@ export const Home = () => {
         
 
         
-        {productState.isProductLoading ? <ClipLoader color={`var(--primary-color)`} size={40}/> : <Featured />}
+        {/* {productState.isProductLoading ? <ClipLoader color={`var(--primary-color)`} size={40}/> : <Featured />} */}
 
         {productState?.isCategoryLoading ? <ClipLoader color={`var(--primary-color)`} size={40}/> : <Category />}
         
