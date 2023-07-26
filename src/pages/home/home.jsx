@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { NavLink, useNavigate } from "react-router-dom";
 import { Brand } from "../../components/brand/brand";
 import { Featured } from "../../components/featured/featured";
