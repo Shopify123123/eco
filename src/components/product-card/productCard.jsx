@@ -15,7 +15,6 @@ export const ProductCard = ({ data }) => {
     title,
     brand,
     price,
-    originalPrice,
     ratings,
     outOfStock,
   } = data;

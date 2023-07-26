@@ -1,13 +1,8 @@
 import { useNavigate } from "react-router";
 import {
-  hm,
-  sassafras,
   levis,
-  urbanic,
   zara,
-  dolce,
   roadster,
-  tokyoTalkies,
 } from "../../assets";
 import { useFilters } from "../../context/filterContext";
 import "./brand.css";
