@@ -1,5 +1,5 @@
 // import { featuredData } from "./featuredData";
-import { ProductCard } from "../product-card/productCard";
+// import { ProductCard } from "../product-card/productCard";
 import "./featured.css";
 import { useProducts } from "../../context/productContext";
 

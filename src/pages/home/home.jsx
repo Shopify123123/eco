@@ -2,7 +2,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { Brand } from "../../components/brand/brand";
 import { Featured } from "../../components/featured/featured";
 import { Category } from "../../components/category/category";
-import { header, logo } from "../../assets";
+import { header } from "../../assets";
 import ClipLoader from "react-spinners/ClipLoader";
 import "./home.css";
 import { useProducts } from "../../context/productContext";

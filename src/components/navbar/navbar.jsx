@@ -1,6 +1,6 @@
 import { NavLink, useNavigate } from "react-router-dom";
 import { useState } from "react";
-import { logo } from "../../assets";
+// import { logo } from "../../assets";
 import "./navbar.css";
 import { useAuth } from "../../context/authContext";
 import { useFilters } from "../../context/filterContext";
