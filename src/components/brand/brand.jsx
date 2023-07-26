@@ -17,26 +17,10 @@ export const Brand = () => {
   const navigate = useNavigate();
   return (
     <>
-      <h2>Brands ✨</h2>
+      <h2>Featured Brands </h2>
       <div className="brand">
-        <img
-          src={hm}
-          alt="hm"
-          onClick={() => {
-            filterDispatch({ type: "clear_filters" });
-            filterDispatch({ type: "filter_by_brands", payload: "H&M" });
-            navigate("/products");
-          }}
-        />
-        <img
-          src={sassafras}
-          alt="sassafras"
-          onClick={() => {
-            filterDispatch({ type: "clear_filters" });
-            filterDispatch({ type: "filter_by_brands", payload: "Sassafras" });
-            navigate("/products");
-          }}
-        />
+       
+        
         <img
           src={levis}
           alt="levis"
@@ -46,15 +30,7 @@ export const Brand = () => {
             navigate("/products");
           }}
         />
-        <img
-          src={urbanic}
-          alt="urbanic"
-          onClick={() => {
-            filterDispatch({ type: "clear_filters" });
-            filterDispatch({ type: "filter_by_brands", payload: "Urbanic" });
-            navigate("/products");
-          }}
-        />
+       
         <img
           src={zara}
           alt="zara"
@@ -64,18 +40,7 @@ export const Brand = () => {
             navigate("/products");
           }}
         />
-        <img
-          src={dolce}
-          alt="dolce"
-          onClick={() => {
-            filterDispatch({ type: "clear_filters" });
-            filterDispatch({
-              type: "filter_by_brands",
-              payload: "Dolce & Gabbana",
-            });
-            navigate("/products");
-          }}
-        />
+        
         <img
           src={roadster}
           alt="roadster"
@@ -85,18 +50,7 @@ export const Brand = () => {
             navigate("/products");
           }}
         />
-        <img
-          src={tokyoTalkies}
-          alt="tokyoTalkies"
-          onClick={() => {
-            filterDispatch({ type: "clear_filters" });
-            filterDispatch({
-              type: "filter_by_brands",
-              payload: "Tokyo Talkies",
-            });
-            navigate("/products");
-          }}
-        />
+        
       </div>
     </>
   );

@@ -62,9 +62,7 @@ h1 {
   padding: 10px 20px;
 }
 
-.profile.address .add-address:hover {
-  background-color: var(--primary-dark);
-}
+
 
 .address-container button {
   background-color: transparent;

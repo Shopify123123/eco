@@ -52,9 +52,7 @@
   width: 80%;
 }
 
-.address-card button:hover {
-  background-color: var(--primary-dark);
-}
+
 
 @media (max-width: 700px) {
   .address-card {

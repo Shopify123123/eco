@@ -56,7 +56,7 @@ export const ProductDetails = () => {
       <p className="text details">
         <p onClick={() => navigate("/")}>Home</p>{" "}
         <i class="fa-solid fa-angle-right fa-xs"></i>{" "}
-        <p onClick={() => navigate("/products")}>Browse Products</p>
+        <p onClick={() => navigate("/products")}>All Products</p>
         <i class="fa-solid fa-angle-right fa-xs"></i>
         <span>Product Details</span>
       </p>

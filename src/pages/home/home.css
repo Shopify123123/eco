@@ -27,8 +27,7 @@
 
 .hero .header h1 {
   font-size: 56px;
-  color: var(--primary-light);
-  text-shadow: 1px 1px 2px white;
+  color: var(--primary-light-two);
 }
 
 .hero .header h1:nth-child(2) {
@@ -108,7 +107,7 @@
 }
 
 footer {
-  background-color: var(--primary-color);
+  background-color: var(--primary-lightest);
   margin-bottom: 0;
   padding: 0 70px;
   padding-bottom: 2px;
@@ -157,10 +156,7 @@ footer .footer-div {
   color: var(--white-color);
 }
 
-.footer-div a:hover {
-  color: var(--primary-light);
-  transform: scale(1.2);
-}
+
 
 footer p {
   text-align: center;

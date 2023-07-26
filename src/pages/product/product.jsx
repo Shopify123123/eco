@@ -21,7 +21,7 @@ export const Product = () => {
             <p onClick={() => navigate("/")}>Home</p>{" "}
             <i class="fa-solid fa-angle-right fa-xs"></i>{" "}
             <span onClick={() => navigate("/products")}>
-              Browse Products ({filteredData.length})
+             All Products 
             </span>
           </p>
           <button onClick={() => setIsFilterVisible((prev) => !prev)}>
@@ -41,7 +41,7 @@ export const Product = () => {
           ) : (
             <div className="product-list">
               {filteredData.length === 0 ? (
-                <h2 style={{ textAlign: "center" }}>No Products Found.</h2>
+                <h2 style={{ textAlign: "center" }}> Product Not Found.</h2>
               ) : (
                 filteredData.map((product) => {
                   return (

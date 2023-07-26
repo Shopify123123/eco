@@ -28,12 +28,14 @@ export const NavBar = () => {
           display: isVisible && token === "" ? "block" : "none",
         }}
       >
-        Sign up and get exclusive offers.
+        Sign up for big discounts.
         <i onClick={() => setIsVisible(false)} class="fa-solid fa-xmark"></i>
       </div>
       <div className="nav">
         <div className="navbar">
-          <img src={logo} alt="logo" onClick={() => navigate("/")} />
+          <h2 onClick={() => navigate("/")} >FASHION NOVA </h2>
+          
+
           <div className="nav-options">
             <p>
               <NavLink style={activeStyle} to="/">
@@ -42,7 +44,7 @@ export const NavBar = () => {
             </p>
             <p>
               <NavLink style={activeStyle} to="/products">
-                SHOP
+                STORE
               </NavLink>
             </p>
           </div>
@@ -53,7 +55,7 @@ export const NavBar = () => {
                 style={{ color: "#98999a" }}
               ></i>
               <input
-                placeholder="Search"
+                placeholder="Discover products"
                 value={filterState.search}
                 onChange={(e) => {
                   filterDispatch({
@@ -95,7 +97,7 @@ export const NavBar = () => {
             style={{ color: "#98999a" }}
           ></i>
           <input
-            placeholder="Search"
+            placeholder="Discover/Search"
             value={filterState.search}
             onChange={(e) => {
               filterDispatch({

@@ -12,13 +12,13 @@ export const SideBar = ({ isFilterVisible }) => {
         style={{ display: isFilterVisible ? "block" : "" }}
       >
         <div className="filter">
-          <h2>Filters</h2>
+          <h2>Filter</h2>
           <button
             onClick={() => {
               filterDispatch({ type: "clear_filters" });
             }}
           >
-            Clear Filters
+            Reset Filter
           </button>
         </div>
 
@@ -176,17 +176,7 @@ export const SideBar = ({ isFilterVisible }) => {
 
         <h4>Sort By Price:</h4>
         <div className="price-filter">
-          <label>
-            <input
-              type="radio"
-              name="sort"
-              checked={filterState.sort === "featured"}
-              onChange={() =>
-                filterDispatch({ type: "filter_by_sort", payload: "featured" })
-              }
-            />{" "}
-            Featured
-          </label>
+          
           <label>
             <input
               type="radio"
@@ -214,6 +204,17 @@ export const SideBar = ({ isFilterVisible }) => {
               }
             />{" "}
             Low to High
+          </label>
+          <label>
+            <input
+              type="radio"
+              name="sort"
+              checked={filterState.sort === "featured"}
+              onChange={() =>
+                filterDispatch({ type: "filter_by_sort", payload: "featured" })
+              }
+            />{" "}
+            Featured
           </label>
         </div>
 

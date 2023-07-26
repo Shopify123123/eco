@@ -9,7 +9,7 @@ export const Category = () => {
   const navigate = useNavigate();
   return (
     <>
-      <h2>Currated Picks ✨</h2>
+      <h2>Shop By Category</h2>
       <div className="category">
         {productState?.categoriesData.length !== 0 &&
           productState?.categoriesData?.map((category) => (

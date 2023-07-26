@@ -2,11 +2,11 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 
 :root {
-  --primary-color: #e80071;
+  --primary-color: #40119d;
   --primary-dark: #ba045c;
-  --primary-light: rgb(240, 206, 206);
+  --primary-light: #ff1896;
   --primary-lighter: rgb(253, 239, 245);
-  --primary-lightest: rgb(252, 244, 247);
+  --primary-lightest: #0f2b16;
 
   --gray: rgb(139, 138, 138);
   --gray-lighter: rgb(233, 232, 232);

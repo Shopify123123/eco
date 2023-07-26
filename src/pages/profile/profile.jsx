@@ -13,7 +13,7 @@ export const Profile = () => {
   });
   return (
     <>
-      <h1>Account</h1>
+      <h1>User Account Details</h1>
       <div className="profile">
         <div className="links">
           <NavLink style={getStyles} to="/profile">
@@ -40,7 +40,7 @@ export const Profile = () => {
             toast.warning("Logged Out!");
           }}
         >
-          Log Out
+          Sign Out
         </button>
       </div>
     </>

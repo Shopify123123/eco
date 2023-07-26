@@ -76,9 +76,7 @@
   cursor: pointer;
 }
 
-.wishlist-cart .wishlist-btn:hover {
-  background-color: var(--primary-dark);
-}
+
 
 .wishlist-cart .cart-btn {
   background-color: transparent;
